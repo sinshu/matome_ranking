@@ -1,0 +1,100 @@
+body
+{
+	background-color: white;
+	font-family: sans-serif;
+}
+
+ul
+{
+	color: dimgray;
+	margin-bottom: 1em;
+}
+
+li
+{
+	padding: 0.1em;
+}
+
+a
+{
+	color: seagreen;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+.titlebox
+{
+	width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+.maintitle
+{
+	color: dimgray;
+	font-weight: bold;
+	font-size: x-large;
+	text-align: center;
+}
+
+.subtitle
+{
+	color: gray;
+	font-size: small;
+	text-align: center;
+}
+
+.ranking
+{
+	width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3em;
+	border-collapse: collapse;
+}
+
+.ranknumber
+{
+	color: darkgreen;
+	font-weight: bold;
+	font-size: large;
+	width: 3em;
+	text-align: center;
+	border-top-style: solid;
+	border-top-color: lightgreen;
+	border-top-width: 0.2em;
+	background-color: lightgreen;
+}
+
+td.ranktitle
+{
+	padding-left: 0.5em;
+	border-top-style: solid;
+	border-top-color: lightgreen;
+	border-top-width: 0.2em;
+}
+
+a.ranktitle
+{
+	color: darkgreen;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+.date
+{
+	color: gray;
+}
+
+.message
+{
+	color: dimgray;
+	padding-top: 0.3em;
+	padding-left: 1em;
+}

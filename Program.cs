@@ -77,6 +77,7 @@ namespace MatomeRanking
                 for (var line = reader.ReadLine(); line != null; line = reader.ReadLine())
                 {
                     if (line == "") break;
+                    if (line.StartsWith("[")) continue;
                     rssList.Add(line);
                 }
             }
